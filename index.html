@@ -6,9 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <button>Register</button>
+    <button class="m">Register</button>
+    <button class="n">Details</button>
+
     <script>
-        var reg=document.getElementsByTagName("button")
+        var reg=document.getElementsByClassName("m")
         reg[0].addEventListener("click", ()=>{
             var a=prompt("enter your username")
             var b=prompt("enter your password")
@@ -21,7 +23,13 @@
             window.localStorage.setItem("dob",d)
             window.localStorage.setItem("mother name",e)
             window.location.assign("./index1.html");
-            
+
+        })
+
+
+        var btn=document.getElementsByClassName("n")
+        btn[0].addEventListener("click",()=>{
+            window.location.assign("./index1.html")
         })
     </script>
 </body>
