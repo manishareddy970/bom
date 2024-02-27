@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Register</button>
+    <script>
+        var reg=document.getElementsByTagName("button")
+        reg[0].addEventListener("click", ()=>{
+            var a=prompt("enter your username")
+            var b=prompt("enter your password")
+            var c=prompt("enter your email")
+            var d=prompt("enter your dob")
+            var e=prompt("enter your mother name")
+            window.localStorage.setItem("username",a)
+            window.localStorage.setItem("password",b)
+            window.localStorage.setItem("email",c)
+            window.localStorage.setItem("dob",d)
+            window.localStorage.setItem("mother name",e)
+            window.location.assign("./index1.html");
+            
+        })
+    </script>
+</body>
+</html>

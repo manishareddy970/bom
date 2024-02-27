@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+
+    </style>
+</head>
+<body>
+
+
+    <script>
+         var a=document.createElement("table");
+         a.style.border="solid 1px";
+        
+         var b=document.createElement("tr");
+         var c=document.createElement("td");
+         var c1=document.createElement("td");
+         b.appendChild(c);
+         a.appendChild(b);
+         b.appendChild(c1);
+         c.innerText="Username:"
+         c1.innerText=window.localStorage.getItem("username");
+         c.style.border="solid 1px";
+         c1.style.border="solid 1px";
+         
+         
+
+         var b1=document.createElement("tr");
+         var c=document.createElement("td");
+         var c1=document.createElement("td");
+         b1.appendChild(c);
+         a.appendChild(b1);
+         b1.appendChild(c1);
+         c.innerText="Password:"
+         c1.innerText=window.localStorage.getItem("password");
+         c.style.border="solid 1px";
+         c1.style.border="solid 1px";
+
+         var b2=document.createElement("tr");
+         var c=document.createElement("td");
+         var c1=document.createElement("td");
+         b2.appendChild(c);
+         a.appendChild(b2);
+         b2.appendChild(c1);
+         c.innerText="Email:"
+         c1.innerText=window.localStorage.getItem("email");
+         c.style.border="solid 1px";
+         c1.style.border="solid 1px";
+
+
+
+         var b3=document.createElement("tr");
+         var c=document.createElement("td");
+         var c1=document.createElement("td");
+         b3.appendChild(c);
+         a.appendChild(b3);
+         b3.appendChild(c1);
+         c.innerText="Dob:"
+         c1.innerText=window.localStorage.getItem("dob");
+         c.style.border="solid 1px";
+         c1.style.border="solid 1px";
+        
+
+
+         var b4=document.createElement("tr");
+         var c=document.createElement("td");
+         var c1=document.createElement("td");
+         b4.appendChild(c);
+         a.appendChild(b4);
+         b4.appendChild(c1);
+         c.innerText="Mother Name:"
+         c1.innerText=window.localStorage.getItem("mother name");
+         c.style.border="solid 1px";
+         c1.style.border="solid 1px";
+
+         document.body.appendChild(a);
+
+
+
+         
+         
+
+
+       
+    //     =window.localStorage.getItem("username");
+    //    var y=window.localStorage.getItem("password");
+    //    var x=window.localStorage.getItem("email");
+    //    var w=window.localStorage.getItem("dob");
+    //    var v=window.localStorage.getItem("mother name");
+       
+
+         
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
